@@ -1,3 +1,4 @@
+//Ejercicio 2.10
 import java.util.Scanner;
 
 public class Triangulo {
