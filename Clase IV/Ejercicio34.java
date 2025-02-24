@@ -1,5 +1,5 @@
 // Ejercicio 3.4
-public class Ejercicio {
+public class Ejercicio34 {
     public static void main(String[] args) {
         int A = 2;
         int B = 5;
