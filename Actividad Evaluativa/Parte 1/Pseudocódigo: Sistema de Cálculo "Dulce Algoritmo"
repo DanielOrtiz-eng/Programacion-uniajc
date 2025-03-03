@@ -1,0 +1,33 @@
+Inicio
+    // Solicitar entrada del usuario
+    "Ingrese la cantidad de barras producidas en un día: " = (N)
+    Leer N
+ 
+    // Definir costos
+    CostoMateriaPrima ← 2.50
+    CostoEmpaque ← 0.50
+    BarrasPorCaja ← 10
+    PorcentajeGanancia ← 0.30
+ 
+    // Calcular costo total de producción
+    CostoPorBarra = CostoMateriaPrima + CostoEmpaque
+
+    CostoTotalProduccion ← N * CostoPorBarra
+ 
+    // Calcular precio de venta
+    PrecioVentaPorBarra ← CostoPorBarra * (1 + PorcentajeGanancia)
+ 
+    // Calcular ingreso total del día
+    IngresoTotal ← N * PrecioVentaPorBarra
+ 
+    // Calcular cantidad de cajas completas y barras sueltas
+    CajasCompletas ← N div BarrasPorCaja
+    BarrasSueltas ← N mod BarrasPorCaja
+ 
+    // Mostrar resultados
+    Escribir "Costo total de producción: $", CostoTotalProduccion
+    Escribir "Precio de venta por barra: $", PrecioVentaPorBarra
+    Escribir "Ingreso total del día: $", IngresoTotal
+    Escribir "Número de cajas completas: ", CajasCompletas
+    Escribir "Barras sueltas: ", BarrasSueltas
+Fin
