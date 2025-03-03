@@ -1,10 +1,14 @@
 {
     "java.project.sourcePaths": [
+        "Ejercicio 3.9",
+        "Ejercicio 3.11",
+        "Ejercicio 2.12",
         "Ejercicio 2.11",
         "Ejercicio 2.10",
+        "Clase IV",
         "Clase III",
         "Clase II",
         "Clase I",
-        "Clase IV"
+        "Ejercicio 3.10"
     ]
 }
